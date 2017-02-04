@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle Command History",
+        "command": "command-history:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Command History",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "command-history:toggle"
+            },
+            {
+              "label": "Clear history",
+              "command": "command-history:clear"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
