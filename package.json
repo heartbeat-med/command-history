@@ -7,7 +7,7 @@
     "command",
     "history"
   ],
-  "repository": "https://github.com/mediabakery/command-history",
+  "repository": "https://github.com/heartbeat-med/command-history",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
