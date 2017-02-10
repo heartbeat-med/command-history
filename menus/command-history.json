@@ -15,12 +15,20 @@
           "label": "Command History",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Toggle history",
               "command": "command-history:toggle"
+            },
+            {
+              "label": "Toggle favorites",
+              "command": "command-history:toggle-favorites"
             },
             {
               "label": "Clear history",
               "command": "command-history:clear"
+            },
+            {
+              "label": "Clear favorites",
+              "command": "command-history:clear-favorites"
             }
           ]
         }

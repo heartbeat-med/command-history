@@ -1,8 +1,12 @@
 {
   "atom-workspace": {
-    "ctrl-shift-cmd-P": "command-history:toggle"
+    "ctrl-shift-cmd-P": "command-history:toggle",
+    "ctrl-shift-cmd-O": "command-history:toggle-favorites"
   },
   ".command-history": {
+    "cmd-x": "command-history:blacklist-command"
+  },
+  ".command-favorites": {
     "cmd-x": "command-history:blacklist-command"
   }
 }
